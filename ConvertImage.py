@@ -1,8 +1,9 @@
 
-# 功能 : 将当前工作目录下所有webp格式转为png or jpg
 # -*- coding: UTF-8 -*-
 import os
 from PIL import Image
+
+# 功能 : 将当前工作目录下所有webp格式转为png or jpg
 
 # 返回当前工作目录
 CURRENT_PATH = os.getcwd()
